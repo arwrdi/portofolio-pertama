@@ -1,0 +1,63 @@
+.navbar{
+    background-color: #00005c;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, .25)
+}
+ 
+section{
+    padding-top:128px;
+
+}
+.home h1{
+    font-size: 72px;
+}
+.home h3{
+    font-size: 48px;
+}
+.btn{
+    border: 1px solid #00005c;
+    border-radius: 32px;
+}
+.btn:hover{
+    background-color: #00005c
+    ;
+    color: white
+}
+.home img{
+    width: 100%;
+}
+.home .arow img{
+    width: 60px;
+}
+.home .arow:hover{
+    animation: besar 1s  ;
+    animation-fill-mode: forwards;
+}
+@keyframes besar {
+    0%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100%{
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    
+}
+
+#arrow{
+    animation: 2s upDown infinite;
+}
+
+@keyframes upDown {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
