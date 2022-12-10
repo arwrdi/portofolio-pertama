@@ -5,7 +5,22 @@
  
 section{
     padding-top:128px;
+    position: relative;
 
+}
+section::before{
+    z-index: -1;
+    content: '';
+    font-size: 72px;
+    color: #00005c;
+    opacity: .25;
+    position: absolute;
+    top:-10px;
+    left:-10px;
+    font-weight:700;
+}
+.home{
+    height: 50vw;
 }
 .home h1{
     font-size: 72px;
@@ -25,6 +40,8 @@ section{
 .home img{
     width: 100%;
 }
+
+
 .home .arow img{
     width: 60px;
 }
@@ -46,6 +63,17 @@ section{
 
 #arrow{
     animation: 2s upDown infinite;
+}
+.about::before{
+    content:'About'
+}
+.about-exp-item{
+    margin-top: 32px;
+}
+.about-exp-item-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @keyframes upDown {
