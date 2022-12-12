@@ -20,7 +20,7 @@ section::before{
     font-weight:700;
 }
 .home{
-    height: 50vw;
+    height: 70vw;
 }
 .home h1{
     font-size: 72px;
@@ -74,6 +74,9 @@ section::before{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.about-exp-item-detail{
+    display: none;
 }
 
 @keyframes upDown {
