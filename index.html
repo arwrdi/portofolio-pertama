@@ -24,13 +24,13 @@
                         <a class="nav-link fw-semibold active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="ignnav-link fw-semibold" href="#">About</a>
+                        <a class="nav-link fw-semibold" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#">Work</a>
+                        <a class="nav-link fw-semibold" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#">Contact</a>
+                        <a class="nav-link fw-semibold" href="#contact">Contact</a>
                     </li>
                     
                    
@@ -40,25 +40,25 @@
         </div>
     </nav>
     <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
 
-            <div class="col-8">
+            <div class="col-12 col-md-8 ">
                 <h3 class="fw-semibold"> Hi! I Am</h3>
                 <h1 class="fw-bold"> Arwin Renardi</h1>
                 <p>a front-end developer and graphic designer</p>
                 <a class="btn " href="/"> resume</a>
     
             </div>
-            <div class="col-4 foto-porto">
+            <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
                 <img src="images/foto-porto2.png" alt="foto">
             </div>
         </div>
-        <div class="arow w-100  d-flex align-items-center flex-column  mt-5">
-            <a class="text-decoration-none text-dark" href="#about">
+        <a href="#about" class="text-decoration-none arow w-100  d-flex align-items-center flex-column  mt-5">
+            <div class=" text-dark" >
                 more info
-            </a>
+            </div>
             <img id="arrow" class="mt-2" src="images/arrow.svg" alt="arrow">
-        </div>
+        </a>
     </section>
 
     <section id="about" class="about container">
@@ -105,10 +105,10 @@
     
     <section id="work" class="work container">
         <div class="row d-flex align-items-center gap-5">
-            <div class="col">
+            <div class="col-12 col-md-5">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque architecto culpa animi in, eaque quo minus fuga harum tempore, ipsa omnis recusandae inventore expedita rerum nemo quasi molestiae illum quos.
             </div>
-            <div class="col work-img" >
+            <div class="col-12 col-md-6 work-img" >
                 <div class="work-img-item" id="work-1">
                     <img src="images/work-1.png" alt="work-1" >
                 </div>
@@ -124,26 +124,26 @@
     </section>
     <section id="contact" class="contact container">
         <div class="row d-flex align-items-center justify-content-center">
-            <div class="col">
+            <div class="col-12 col-lg-6">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium perspiciatis repudiandae nisi eum
                     fugit nemo obcaecati dolores voluptatem, dignissimos eligendi quae nostrum minus earum praesentium,
                     aperiam commodi enim porro ipsam.</p>
                 <div class="row">
                     <div class="col d-flex align-items-center justify-content-center">
-                        <img src="images/Facebook.svg" alt="Facebook-icon">
-                        <p>Arwin Renardi</p>
+                        <img class="w-25" src="images/Facebook.svg" alt="Facebook-icon">
+                        <p class="mb-0 ms-2">Arwin Renardi</p>
                     </div>
                     <div class="col d-flex align-items-center justify-content-center">
-                        <img src="images/Twitter.svg" alt="Twitter-icon">
-                        <p>@Widyokov</p>
+                        <img class="w-25" src="images/Twitter.svg" alt="Twitter-icon">
+                        <p class="mb-0 ms-2">@Widyokov</p>
                     </div>
                     <div class="col d-flex align-items-center justify-content-center">
-                        <img src="images/Instagram.svg" alt="Instagram-icon">
-                        <p>@arwrdi</p>
+                        <img class="w-25" src="images/Instagram.svg" alt="Instagram-icon">
+                        <p class="mb-0 ms-2">@arwrdi</p>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg-5">
                 <form class="contact-form" onSubmit="onFormSubmit(event)">
                     <div class="mb-3">
                         <label for="inp_email" class="form-label">Email address</label>

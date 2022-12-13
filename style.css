@@ -21,7 +21,7 @@ section::before{
     font-weight:700;
 }
 .home{
-    height: 70vw;
+    /* height: 70vw; */
 }
 .home h1{
     font-size: 72px;
