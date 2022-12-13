@@ -133,6 +133,10 @@ section::before{
     content: 'Software Developer';
 }
 
+.contact::before{
+    content: 'Contact';
+}
+
 @keyframes upDown {
     0%{
         transform: translateY(0);
