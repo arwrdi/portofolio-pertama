@@ -32,6 +32,7 @@ section::before{
 .btn{
     border: 1px solid #00005c;
     border-radius: 32px;
+    /* padding: 10px; */
 }
 .btn:hover{
     background-color: #00005c
@@ -135,6 +136,14 @@ section::before{
 
 .contact::before{
     content: 'Contact';
+}
+.contact{
+    margin-bottom: 128px;
+}
+.contact-form{
+    border: 1px #00005c solid;
+    padding: 64px 32px;
+    border-radius: 5%;
 }
 
 @keyframes upDown {
